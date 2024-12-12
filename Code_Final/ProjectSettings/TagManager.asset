@@ -3,7 +3,13 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - 'Exit '
+  - Death
+  - 'Trophy '
+  - Exit2
+  - End
+  - Coin1
   layers:
   - Default
   - TransparentFX

@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class WASD_rb : MonoBehaviour
 {
@@ -38,5 +39,21 @@ public class WASD_rb : MonoBehaviour
             rb.AddForce(Vector2.up * forceAmt);
         }
 
+    }
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.transform.tag == "Coin1")
+        {
+            SceneManager.LoadScene("Level1");
+        }
+        if (collision.transform.tag == "Death")
+        {
+            SceneManager.LoadScene(1);
+        }
+        if (collision.transform.tag == "End")
+        {
+            SceneManager.LoadScene(1);
+        }
     }
 }
