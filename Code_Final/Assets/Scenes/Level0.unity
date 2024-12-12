@@ -244,9 +244,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 67d72ebc844f6334dbad737fd9092cfc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  xoffset: -9
-  yoffset: 4
-  player: {fileID: 1561061332105168668, guid: 5472baf6848012c428a7f9a80ce96cc6, type: 3}
+  xoffset: -13
+  yoffset: 5
+  player: {fileID: 8154296575600409521, guid: 1e7ccff05ccd3d246a248db43e5ce223, type: 3}
   wall: {fileID: 8875876668373167186, guid: 37bc9b0594fb9bb40a0aad019bd03af1, type: 3}
   obstacle: {fileID: 4474231332628293620, guid: 320b82a5dca4e4444a69c674175be4a3, type: 3}
   goal: {fileID: 7234840666201181944, guid: 8997b8d1163b8974a8016ff7ebccd514, type: 3}
